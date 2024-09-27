@@ -22,8 +22,18 @@ p {
     margin: 20px;
 }
 
+.width_150 {
+    width: 150px;
+}
+
 .large-text {
     font-size: 36px;
+}
+
+.box {
+    background-color: #FF7500;
+    width: 100px;
+    height: 100px;
 }
 
 .footer {
