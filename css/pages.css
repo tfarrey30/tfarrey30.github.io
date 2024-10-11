@@ -1,0 +1,50 @@
+/*TODO: Modify CSS styles for table in seperate file */
+/*TODO: Modify CSS styles for combined styles in seperate file */
+
+.flex_menu {
+    display: flex;
+    background-color: #CCCCCC;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex_menu div {
+    background-color: #BBBBBB;
+    padding: 10px;
+    margin: 10px;
+    max-width: 150px;
+    color: black;
+    border: 1px solid black;
+}
+
+.table_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border: 3px solid red;
+}
+
+th {
+    background-color: #BBBBBB;
+    text-align: center;
+    padding: 7px;
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    width: fit-content;
+}
+
+.footer {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
