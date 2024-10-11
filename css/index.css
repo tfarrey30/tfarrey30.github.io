@@ -43,3 +43,19 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.flex_menu {
+    display: flex;
+    background-color: #CCCCCC;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex_menu div {
+    background-color: #BBBBBB;
+    padding: 10px;
+    margin: 10px;
+    max-width: 150px;
+    color: black;
+    border: 1px solid black;
+}
