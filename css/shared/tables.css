@@ -1,0 +1,54 @@
+.table_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border: 3px solid red;
+}
+
+ul {
+    list-style: none;
+}
+
+th {
+    background-color: #BBBBBB;
+    text-align: center;
+    padding: 7px;
+}
+
+tr {
+    text-align: center;
+}
+
+td ul {
+    padding: 2px;
+    margin: 2px;
+}
+
+td {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: fit-content;
+}
+
+tr:last-of-type td {
+    border-bottom: none;
+}
+
+tr td:last-of-type {
+    border-right: none;
+}
+
+caption {
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

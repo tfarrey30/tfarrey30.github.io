@@ -1,0 +1,6 @@
+.tile_bg1 {
+    background-image: url('../images/tiles/tile1.jpg');
+    color:white;
+    height: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
