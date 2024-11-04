@@ -1,0 +1,121 @@
+body {
+    background-color: #A9A9A9;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input {
+    width: 95%;
+    position: relative;
+    left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.system {
+    width: fit-content;
+    height: 210px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.song-details {
+    float: right;
+    padding-right: 5px;
+}
+
+.song-details a {
+    color: white;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.time p {
+    padding-left: 15px;
+    color: white;
+}
+
+.time input {
+    position: relative;
+    bottom: 10px;
+}
+
+.songs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.song img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.song img:hover {
+    cursor: pointer;
+}
+
+.song p {
+    margin: 5px 0;
+}
+
+.other-songs {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: white;
+}
+
+.song-title {
+    color: white;
+    font-weight: bold;
+}
+
+.vol {
+    width: 10%;
+}
+
+.volume-div {
+    position: relative;
+    left: 320px;
+    top: 30px;
+}
+
+.volume-div i {
+    position: relative;
+    left: 10px;
+}
+
+.volume-time {
+    position: relative;
+    bottom: 20px;
+}
