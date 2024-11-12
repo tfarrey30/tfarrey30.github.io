@@ -80,10 +80,6 @@ i:hover {
     border-radius: 10px;
 }
 
-.song img:hover {
-    cursor: pointer;
-}
-
 .song p {
     margin: 5px 0;
 }
